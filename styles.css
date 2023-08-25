@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Punk;
+    src: url("../src/assets/fonts/PUNKBABE.ttf");
+}
+
+@font-face {
+    font-family: Type;
+    src: url("../src/assets/fonts/ELEGANTTYPEWRITER.ttf");
+}
+.hello{
+    color: white;
+    display: flex;
+    font-family: Type;
+    align-items: center;
+    margin: 100px;
+    font-size: 120px;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    background-image: url("../src/assets/images/background.png");
+    background-size: 125%;
+    background-repeat: no-repeat;
+    
+}
+
+.nav{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 1rem;
+    align-items: center;
+}
+.nav ul{
+    padding: 0;
+    margin: 0 100px;
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    
+}
+
+.nav a {
+    color: inherit;
+    font-family: Type;
+    font-size: 35px;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    padding: .55rem;
+}
+
+.nav li.active{
+    background:#c31818;
+}
+
+.nav li:hover{          /*li element that is currently being hovered over by user..hover uses : because it is not just a class you make, it is built in*/
+    background:#c31818;
+}
+
+
+
