@@ -7,27 +7,111 @@
     font-family: Type;
     src: url("../src/assets/fonts/ELEGANTTYPEWRITER.ttf");
 }
-.hello{
-    color: white;
-    display: flex;
-    font-family: Type;
-    align-items: center;
-    margin: 100px;
-    font-size: 120px;
+
+@font-face {
+    font-family: Clean;
+    src: url("../src/assets/fonts/couture-bld.otf");
 }
 
+@keyframes fadeIn{
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+}
 *{
     box-sizing: border-box;
     
 }
-body {
-    margin: 0;
-    background-image: url("../src/assets/images/background.png");
-    background-size: 125%;
-    background-repeat: no-repeat;
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+.intro{
+    margin-top: 200px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
     
 }
+.AboutButton{
+    border: orange 1px solid;
+    font-family: Clean;
+    padding: 1em 1em;
+    
+}
+.Work-Button{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.AboutInfo{
+    border: #c31818 10px solid;
+    padding: 5%;
+    color: white;
+    font-family: Clean;
+}
 
+.Title1{
+    color: white;
+    font-family: TYPE;
+    font-size: 115px;
+}
+.Paragraph1 {
+    font-family: Clean;
+    color: white;
+}
+.Undertitle{
+    font-family: Clean;
+    color:white;
+}
+.undertitle-2 {
+    font-family: Clean;
+    color: white;
+}
+.AboutTitle{
+    margin-top: 300px;
+    color: white;
+    font-family: TYPE;
+    font-size: 80px;
+}
+
+.About{
+    display: flex;
+    flex: row;
+    align-items: flex-start;
+    align-items: left;
+    justify-content: center;
+    max-width: 55%;
+    gap: 2em;
+}
+
+body {
+    margin: 0;
+    background-image: url("../src/assets/images/paint.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+.TechnologyDiv{
+    margin-left: 5%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.Technologies-header{
+    font-size: 45px;
+    color: white;
+}
+.Technologies{
+    color: white;
+    font-family: Clean;
+}
 .nav{
     color: aliceblue;
     display: flex;
