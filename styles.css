@@ -49,9 +49,11 @@
     align-items: center;
     cursor: pointer;
 }
+
 .AboutInfo{
     border: #c31818 10px solid;
     padding: 5%;
+    max-width: 50%;
     color: white;
     font-family: Clean;
 }
@@ -79,17 +81,17 @@
     font-family: TYPE;
     font-size: 80px;
 }
-
+.TravImg{
+    border-radius: 1rem;
+}
 .About{
     display: flex;
     flex: row;
-    align-items: flex-start;
-    align-items: left;
-    justify-content: center;
-    max-width: 55%;
+    align-items: center;
+    justify-content: space-between;
+    
     gap: 2em;
 }
-
 body {
     margin: 0;
     background-image: url("../src/assets/images/paint.png");
@@ -99,18 +101,28 @@ body {
     
 }
 .TechnologyDiv{
-    margin-left: 5%;
+    margin-top: 2%;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
     flex-direction: column;
+    max-height: 125px;
 }
 .Technologies-header{
     font-size: 45px;
     color: white;
+    
 }
 .Technologies{
     color: white;
     font-family: Clean;
+    padding: 1em;
+    list-style-type: none;
+}
+.ProjContainter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .nav{
     color: aliceblue;
@@ -129,6 +141,42 @@ body {
     
 }
 
+.ProjSection{
+    margin-top: 70px;
+    text-align: center;
+    gap: 5rem;
+}
+.ProjHeadingText{
+    color: white;
+    font-family: Clean;
+    
+}
+.ProjDescText{
+    color: white;
+    font-family: Clean;
+    max-width: 500px;
+    margin-top: 150px;
+}
+.ProjectHeading{
+    color: white;
+    font-family: Clean;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.SourceCodeBtn{
+    background-color: navajowhites;
+    margin-top: 50px;
+    border-radius: .25rem;
+    padding: 8px;
+    font-family: Clean;
+}
+.DescWImg{
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    gap: 3rem;
+}
 .nav a {
     color: inherit;
     font-family: Type;
@@ -147,6 +195,12 @@ body {
 .nav li:hover{          /*li element that is currently being hovered over by user..hover uses : because it is not just a class you make, it is built in*/
     background:#c31818;
 }
-
+.ProjectTitle{
+    font-family: TYPE;
+    margin-top:260px;
+    color: white;
+    font-size: 80px;
+    padding: 10px;
+}
 
 
