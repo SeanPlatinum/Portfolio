@@ -1,3 +1,45 @@
+@media screen and (max-width: 768px) {
+    /* Adjustments for tablets and phones */
+    .intro {
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    .Title1 {
+        font-size: 60px;
+    }
+
+    .AboutTitle, .ProjectTitle {
+        font-size: 50px;
+    }
+
+    .nav ul {
+        margin: 0 20px;
+        gap: 1rem;
+    }
+
+    .nav a {
+        font-size: 20px;
+    }
+
+    .TechnologyDiv, .ProjContainter, .DescWImg, .ProjSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutInfo {
+        max-width: 90%;
+    }
+
+    .ProjDescText {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 @font-face {
     font-family: Punk;
     src: url("../src/assets/fonts/PUNKBABE.ttf");
@@ -21,6 +63,17 @@
         opacity: 1;
       }
 }
+@keyframes fadeOut{
+    0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+}
+.fadeOut {
+    animation: fadeOut 2s ease-in-out forwards; 
+  }
 *{
     box-sizing: border-box;
     
@@ -156,12 +209,14 @@ body {
     font-family: Clean;
     max-width: 500px;
     margin-top: 150px;
+    
 }
 .ProjectHeading{
     color: white;
     font-family: Clean;
     margin-bottom: 1rem;
     margin-top: 2rem;
+   
 }
 .SourceCodeBtn{
     background-color: navajowhites;
@@ -176,6 +231,12 @@ body {
     padding: 20px;
     display: flex;
     gap: 3rem;
+}
+.ContactText{
+    color: white;
+    font-family: Clean;
+    justify-content: center;
+    margin-top: 10px;
 }
 .nav a {
     color: inherit;
@@ -201,6 +262,23 @@ body {
     color: white;
     font-size: 80px;
     padding: 10px;
+}
+.footer{
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    gap: 2rem;
+}
+.footer-icon {
+    
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+   
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 
