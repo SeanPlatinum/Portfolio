@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.7fa3b036.css",
+    "main.js": "/Portfolio/static/js/main.08ca4ca6.js",
+    "static/media/paint.png": "/Portfolio/static/media/paint.45ad5b1e384056df5119.png",
+    "static/media/logo (1).png": "/Portfolio/static/media/logo (1).739da59e5ce212765ede.png",
+    "static/media/project1POC.png": "/Portfolio/static/media/project1POC.4c74e72f01faded8d598.png",
+    "static/media/PUNKBABE.ttf": "/Portfolio/static/media/PUNKBABE.235da7131997afedfbd0.ttf",
+    "static/media/travel2.jpg": "/Portfolio/static/media/travel2.8c97d485fa7dca462eff.jpg",
+    "static/media/portfolioImage1.jpg": "/Portfolio/static/media/portfolioImage1.4287c5b43c9b3bfaa7a9.jpg",
+    "static/media/ELEGANTTYPEWRITER.ttf": "/Portfolio/static/media/ELEGANTTYPEWRITER.e19a066e546a10da5e06.ttf",
+    "static/media/cheddaranddad.jpg": "/Portfolio/static/media/cheddaranddad.8b6811f6ec9aaf98895b.jpg",
+    "static/media/SokobanP.png": "/Portfolio/static/media/SokobanP.a0b3dfb72004527b9042.png",
+    "static/media/Proj2.png": "/Portfolio/static/media/Proj2.5c19ac1c119a363c9da2.png",
+    "static/media/couture-bld.otf": "/Portfolio/static/media/couture-bld.b144f2b32e00d7ec80e6.otf",
+    "index.html": "/Portfolio/index.html",
+    "main.7fa3b036.css.map": "/Portfolio/static/css/main.7fa3b036.css.map",
+    "main.08ca4ca6.js.map": "/Portfolio/static/js/main.08ca4ca6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fa3b036.css",
+    "static/js/main.08ca4ca6.js"
+  ]
+}
